@@ -54,5 +54,4 @@ Una vez completado, puedes compartir tu solución proporcionando el código fuen
 }
 
 ## Referencia
-
-![Screenshot_7-1-2025_153518_localhost]("./public/Screenshot_7-1-2025_193113_localhost.jpeg")
+![Encuesta Screenshot](./public/Screenshot_7-1-2025_193113_localhost.jpeg)
