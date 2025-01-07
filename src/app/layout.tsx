@@ -11,7 +11,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   return (
     <html lang="en">
       <body className="">
-      <main className="m-auto max-w-screen-lg px-8">  
+      <main className="m-auto max-w-screen-lg px-8 p-11">  
       {children}
       </main>
       </body>
