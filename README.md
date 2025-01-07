@@ -1,4 +1,4 @@
-# Desafío: Desarrollo de una Encuesta en React con Preguntas y Valoraciones 🚀
+# Desafío: Desarrollo de una Encuesta con Preguntas y Valoraciones 🚀
 
 ## Descripción 📋
 
@@ -11,8 +11,8 @@ Debes crear una **aplicación web** que permita a los usuarios responder una enc
 
 ## Requisitos Técnicos ⚙️
 
-- Utiliza **React** para construir la aplicación.
-- Para el **CSS** utiliza algún framework como **Bootstrap** o **Material-UI**.
+- Utiliza **React o Next** para construir la aplicación.
+- Para el **CSS o Tailwind* utiliza algún framework como **Bootstrap** o **Material-UI** etc.
 
 ## Entrega 📝
 

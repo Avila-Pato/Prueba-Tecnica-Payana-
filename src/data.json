@@ -1,0 +1,29 @@
+
+{
+    "preguntas": [
+      {
+        "id": 1,
+        "texto": "¿Qué tan satisfecho estás con el producto?"
+        
+      },
+      {
+        "id": 2,
+        "texto": "¿Cuál es tu opinión sobre el servicio al cliente?"
+        
+      },
+      {
+        "id": 3,
+        "texto": "¿Cómo calificarías la usabilidad del sitio web?"
+        
+      },
+      {
+        "id": 4,
+        "texto": "¿Recomendarías nuestro producto a otros?"
+      },
+      {
+        "id": 5,
+        "texto": "¿Cómo evaluarías la calidad del producto?"
+        
+      }
+    ]
+  }
