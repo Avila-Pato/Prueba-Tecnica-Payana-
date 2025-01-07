@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafío: Desarrollo de una Encuesta en React con Preguntas y Valoraciones 🚀
 
-## Getting Started
+## Descripción 📋
 
-First, run the development server:
+Debes crear una **aplicación web** que permita a los usuarios responder una encuesta con preguntas y valoraciones del 1 al 5. El listado de preguntas será cargado desde un **JSON mockeado**. La aplicación debe cumplir con los siguientes requisitos:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Mostrar una pregunta a la vez, con sus opciones de valoración del 1 al 5.
+2. Permitir al usuario seleccionar una valoración para cada pregunta.
+3. Mostrar la siguiente pregunta después de que el usuario haya respondido la actual.
+4. Al finalizar la encuesta, mostrar un **resumen** con las respuestas del usuario.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requisitos Técnicos ⚙️
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Utiliza **React** para construir la aplicación.
+- Para el **CSS** utiliza algún framework como **Bootstrap** o **Material-UI**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Entrega 📝
 
-## Learn More
+Una vez completado, puedes compartir tu solución proporcionando el código fuente en un repositorio de **GitHub** u otra plataforma de alojamiento de código. Asegúrate de incluir instrucciones claras sobre cómo ejecutar y probar la aplicación.
 
-To learn more about Next.js, take a look at the following resources:
+¡Buena suerte en el desafío! 🎉
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## JSON de Ejemplo 📑
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```json
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué tan satisfecho estás con el producto?",
+      "valoracion": 5
+    },
+    {
+      "id": 2,
+      "texto": "¿Cuál es tu opinión sobre el servicio al cliente?",
+      "valoracion": 5
+    },
+    {
+      "id": 3,
+      "texto": "¿Cómo calificarías la usabilidad del sitio web?",
+      "valoracion": 5
+    },
+    {
+      "id": 4,
+      "texto": "¿Recomendarías nuestro producto a otros?",
+      "valoracion": 5
+    },
+    {
+      "id": 5,
+      "texto": "¿Cómo evaluarías la calidad del producto?",
+      "valoracion": 5
+    }
+  ]
+}
