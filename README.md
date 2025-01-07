@@ -52,6 +52,7 @@ Una vez completado, puedes compartir tu solución proporcionando el código fuen
     }
   ]
 }
+```
+## Reeferencia
+![Screenshot_7-1-2025_193113_localhost](https://github.com/user-attachments/assets/6c40e16f-28e1-42f8-9446-9c11bb254481)
 
-## Referencia
-![Encuesta Screenshot](./public/Screenshot_7-1-2025_193113_localhost.jpeg)
